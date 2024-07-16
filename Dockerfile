@@ -8,4 +8,4 @@ MAINTAINER toharifqi
 COPY build/libs/eurekaserver-0.0.1-SNAPSHOT.jar eurekaserver-0.0.1-SNAPSHOT.jar
 
 #Execute the application
-ENTRYPOINT ["java", "-jar", "cards-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "eurekaserver-0.0.1-SNAPSHOT.jar"]
